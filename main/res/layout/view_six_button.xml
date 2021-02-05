@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/field1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="#cc0000" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="90dp"
+        android:text="Button"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/field2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="250dp"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="340dp"
+        android:textSize="20sp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/field3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:background="#4d4dff" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="20sp"
+        android:text="Button"/>
+
+</RelativeLayout>
